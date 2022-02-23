@@ -368,7 +368,7 @@ input[type="submit"]:hover {
     display: flex;
     flex-direction: row;
     margin-bottom: 58px;
-    width: 121%;
+    width: 100%;
 }
 
 .services-icon {
@@ -765,7 +765,6 @@ img.quote_img {
     color: #fff;
     font-size: 3.0rem;
     font-weight: 600;
-    width: 505px;
     margin-bottom: 13px;
 }
 
@@ -976,6 +975,10 @@ p.one-2 {
     color: #818889;
 }
 
+.img-site-487 > img {
+    width: 100%;
+}
+
 section.app-new-image {
     margin-top: 201px;
 }
@@ -996,6 +999,174 @@ button.get8798df:hover {
     background: transparent;
     border: 2px solid #8176ff;
 }
+/* 
+.accordian-item {
+    
+    background-color: #283042;
+    border-radius: .4rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    box-shadow: .5rem 2px .5rem rgba(0,0,0,.1);
+}
+
+.accordian-link {
+    font-size: 1.6rem;
+    color: rgba(255, 255, 255, .8);
+    text-decoration: none;
+    background-color: #283042;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+.accordian-link i {
+    color: #e7d5ff;
+    padding: .5rem;
+}
+
+.accordian-link i.fas.fa-times {
+    display: none;
+}
+
+.answer {
+    max-height: 0;
+    overflow: hidden;
+    position: relative;
+    background-color: #212838;
+    transition: max-height 650ms;
+}
+
+.answer::before {
+    content: "";
+    position: absolute;
+    width: .6rem;
+    height: 90%;
+    background-color: #8fc460;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.accordian-item:target .answer {
+    max-height: 20rem;
+}
+
+.accordian-item:target .accordian-link i.fas.fa-bars {
+    display: none;
+}
+
+.accordian-item:target .accordian-link i.fas.fa-times {
+    display: block;
+} */
+
+@import url("https://fonts.googleapis.com/css?family=Rubik&display=swap");
+
+.box {
+  
+   
+   border-radius: 7px;
+   
+}
+
+.text {
+    
+    font-family: var(--font-primary);
+    padding: 14px;
+    margin-top: 7px;
+    font-size: 16px;
+    color: #838383;
+}
+
+.box .heading {
+   background: #7800cf;
+   border-radius: 7px 7px 0px 0px;
+   padding: 10px;
+   color: #fff;
+   text-align: center;
+   font-family: "Rubik";
+}
+
+summary {
+    font-family: var(--font-primary);
+}
+
+
+::-webkit-details-marker {
+   float: right;
+   margin-top: 3px;
+}
+details {
+    background: #0000004d;
+    padding: 22px 20px;
+    border-radius: 7px;
+    margin-top: 20px;
+    font-family: "Rubik";
+    font-size: 14px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    color: #9ca1a3;
+    font-size: 17px;
+    box-shadow: -3px 3px 0px 1px #222424;
+}
+
+details summary {
+   outline: none;
+}
+
+
+.FAQ-Header > h2 {
+    text-align: center;
+    font-family: var(--font-secondary);
+    color: #fff;
+    letter-spacing: 0.25em;
+    font-size: 4rem;
+}
+
+.FAQ-Header {
+    text-align: center;
+    margin-bottom: 97px;
+    margin-top: 125px;
+}
+
+.FAQ-Header > p {
+    color: #b4b7b7;
+    font-family: var(--font-primary);
+    font-size: 18px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*=====Responsive CSS======*/
 
@@ -1062,8 +1233,8 @@ button.get8798df:hover {
         position: fixed;
         top: 0;
         left: -770px;
-        width: 71%;
-        height: 100vh;
+        width: 59%;
+        height: 100%;
         background: #7165FE;
         z-index: 11111111;
     }
@@ -1143,6 +1314,10 @@ section.new_all_phone_in_one {
 
     /*1255*/
 @media (max-width: 1255px) {
+
+    section.app-new-image {
+         margin-top: 0; 
+    }
 
     .single-app-image-js > img {
         width: 100%;
@@ -1248,7 +1423,7 @@ section.new_all_phone_in_one {
 
     .right-mobile-mockup-design-description {
         width: 96%;
-        margin: 0 auto;
+        /* margin: 0 auto; */
     }
     .single-mobile-photo > img {
         width: 100%;
